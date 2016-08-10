@@ -1,0 +1,74 @@
+div.col{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 1173px;
+}
+
+	div.col section{
+		width: 50%;
+	}
+
+div.col.col-page{
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: auto;
+}
+
+@media only screen and (max-width: 975px) {
+	section.servicos ul li{
+		width: 180px;
+	}
+	section.depoimentos ul li {
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+
+	div.col{
+		height: auto;	
+	}
+	
+	div.col section{
+		width: 100%;
+	}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+	div.col{
+		width: 100%;
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	header ul.social{
+		display: none;
+	}
+	
+	div.container{
+		max-width: calc(100% - 20px); 	
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	header div.logo{
+		width: 150px;
+		height: 75px;
+		margin-left: 30px;
+	}
+	
+	section.slideshow div.slideshow{
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	
+}
