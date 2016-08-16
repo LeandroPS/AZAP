@@ -26,26 +26,28 @@
 					<li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
 				</ul>
 				<div class="language">
-					<div class="flag-cur"></div>
+					<div class="flag-cur">
+						<img src="Images/flags/Brazil.png">
+					</div>
 				</div>
 			</div>
 		</header>
 		<div class="container">
 			<ul class="select-lang">
 				<li>
-					<div class="flag"></div>
+					<img class="flag" src="Images/flags/Brazil.png">
 					<span>Portuguese</span>
 				</li>
 				<li>
-					<div class="flag"></div>
+					<img class="flag" src="Images/flags/United-Kingdom.png">
 					<span>English</span>
 				</li>
 				<li>
-					<div class="flag"></div>
+					<img class="flag" src="Images/flags/France.png">
 					<span>French</span>
 				</li>
 				<li>
-					<div class="flag"></div>
+					<img class="flag" src="Images/flags/Spain.png">
 					<span>Spanish</span>
 				</li>
 			</ul>
@@ -53,11 +55,16 @@
 		<section class="slideshow">
 			<div class="container">
 				<div class="slideshow">
+					<ul class="slides">
+						<li style="background-image: url('Images/slideshow/hitachi2.jpg')" class="current"></li>
+						<li style="background-image: url('Images/slideshow/conferencia.jpg')"></li>
+					</ul>
+					
 					<button class="nav prev"></button>
 					<button class="nav next"></button>
 					
 					<ul class="dots">
-						<li></li>
+						<li class="current"></li>
 						<li></li>
 						<li></li>
 					</ul>
@@ -88,7 +95,7 @@
 </svg>
 								<h1>Tradução Simultânea</h1>
 							</div>
-							<button>Orçamento</button>
+							<button class="orc1 orc">Orçamento</button>
 						</li>
 						<li class="equipamento">
 							<div>
@@ -96,7 +103,7 @@
 
 								<h1>Equipamento</h1>
 							</div>
-							<button>Orçamento</button>
+							<button class="orc2 orc">Orçamento</button>
 						</li>
 						<li class="juramentada">
 							<div>
@@ -104,7 +111,7 @@
 
 								<h1>Tradução Juramentada</h1>
 							</div>
-							<button>Orçamento</button>
+							<button class="orc3 orc">Orçamento</button>
 						</li>
 						<li class="medica">
 							<div>
@@ -137,7 +144,7 @@
 
 								<h1>Tradução Médica</h1>
 							</div>
-							<button>Orçamento</button>
+							<button class="orc4 orc">Orçamento</button>
 						</li>
 					</ul>
 				</section>
@@ -231,7 +238,7 @@
 					<button class="nav next"></button>
 					
 					<ul class="dots">
-						<li></li>
+						<li class="current"></li>
 						<li></li>
 						<li></li>
 					</ul>
@@ -299,5 +306,17 @@
 				<address>Rua Hemetério Martins, 123, Campos dos Goytacazes - RJ, Brasil </address>
 			</div>
 		</footer>
+		
+		<div class="glass"></div>
+		<div class="orcamento orcamento1">
+			<form>
+				<h1>Orçamento</h1>
+				<input type="text" class="nome" name="nome" placeholder="Nome">
+				<input type="text" class="CPF" placeholder="CPF/CPNJ">
+				<input type="text" class="tel" placeholder="Telefone">
+				
+				<input type="submit" class="submit" value="Enviar orçamento">
+			</form>
+		</div>
 	</body>
 </html>
